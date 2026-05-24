@@ -14,7 +14,9 @@ logger.info('Some more entries for our logging');
 logger.info('another line');
 logger.info('This never stops');
 logger.info('Logging logging all the way');
-logger.info('Something');
+logger.info('I think this is enough');
+logger.info('nope, one more!');
+logger.info('log entry for testing');
 
 app.listen(3000, function () {
     logger.info("app listening on port 3000!");
